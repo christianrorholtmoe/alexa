@@ -29,7 +29,7 @@ public class SayHelloSpeechlet implements Speechlet {
 		if ("SayHelloIntent".equals(intentName)) {
 			return getHelloResponse();
 		} else if ("AMAZON.HelpIntent".equals(intentName)) {
-			return getHelpResponse();
+			return getHelpResponse(); 
 		} else {
 			return getHelpResponse();
 		}
