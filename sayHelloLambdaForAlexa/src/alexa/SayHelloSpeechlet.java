@@ -41,7 +41,7 @@ public class SayHelloSpeechlet implements Speechlet {
 	 * @return SpeechletResponse spoken and visual response for the given intent
 	 */
 	private SpeechletResponse getWelcomeResponse() {
-		String speechText = "Welcome to Christians Alexa World, you can s ay hello to me, I can respond. Thanks, How to do in java user.";
+		String speechText = "Welcome to Christians Alexa World, you should s ay hello to me, I can respond. Thanks, How to do in java user.";
 
 		// Create the Simple card content.
 		SimpleCard card = new SimpleCard();
