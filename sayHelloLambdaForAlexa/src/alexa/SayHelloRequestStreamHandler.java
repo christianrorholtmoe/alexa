@@ -20,6 +20,7 @@ public class SayHelloRequestStreamHandler extends SpeechletRequestStreamHandler 
 		 */
 		supportedApplicationIds = new HashSet<String>();
 		supportedApplicationIds.add("amzn1.ask.skill.8971b7fd-3a2e-4393-85c5-12c4e85cf2a6");
+		supportedApplicationIds.add("amzn1.ask.skill.53529ff6-4a8e-4282-b047-490c82a15fd5")
 		System.out.println("Supported app ids : " + supportedApplicationIds);
 	}
 
