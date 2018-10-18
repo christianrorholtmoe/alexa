@@ -3,13 +3,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example.howtodoinjava</groupId>
 	<artifactId>sayHelloLambdaForAlexa</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<repositories>
 		<repository>
 			<id>alexa-skills-kit-repo</id>
 			<url>file://${project.basedir}/repo</url>
 		</repository>
 	</repositories>
+
+<!-- Output to jar format -->
+	<packaging>jar</packaging>
 
 	<dependencies>
 		<dependency>
