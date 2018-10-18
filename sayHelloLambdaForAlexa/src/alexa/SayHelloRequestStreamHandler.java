@@ -1,3 +1,5 @@
+//mvn assembly:assembly -DdescriptorId=jar-with-dependencies package
+
 package alexa;
 
 import java.util.HashSet;
